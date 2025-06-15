@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "LojaTenis.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LojaTenis.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LojaTenis.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LojaTenis.Application.dll": {}
+        }
+      },
+      "LojaTenis.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LojaTenis.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LojaTenis.Domain.dll": {}
+        }
+      },
+      "LojaTenis.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LojaTenis.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LojaTenis.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LojaTenis.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LojaTenis.Application/1.0.0": {
+      "type": "project",
+      "path": "../LojaTenis.Application/LojaTenis.Application.csproj",
+      "msbuildProject": "../LojaTenis.Application/LojaTenis.Application.csproj"
+    },
+    "LojaTenis.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LojaTenis.Domain/LojaTenis.Domain.csproj",
+      "msbuildProject": "../LojaTenis.Domain/LojaTenis.Domain.csproj"
+    },
+    "LojaTenis.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../LojaTenis.Infrastructure/LojaTenis.Infrastructure.csproj",
+      "msbuildProject": "../LojaTenis.Infrastructure/LojaTenis.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "LojaTenis.Application >= 1.0.0",
+      "LojaTenis.Domain >= 1.0.0",
+      "LojaTenis.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jonat\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jonat\\source\\repos\\JonatasDaviADS\\LojaTenis\\LojaTenis.Web\\LojaTenis.Web.csproj",
+      "projectName": "LojaTenis.Web",
+      "projectPath": "C:\\Users\\jonat\\source\\repos\\JonatasDaviADS\\LojaTenis\\LojaTenis.Web\\LojaTenis.Web.csproj",
+      "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jonat\\source\\repos\\JonatasDaviADS\\LojaTenis\\LojaTenis.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\jonat\\source\\repos\\JonatasDaviADS\\LojaTenis\\LojaTenis.Application\\LojaTenis.Application.csproj": {
+              "projectPath": "C:\\Users\\jonat\\source\\repos\\JonatasDaviADS\\LojaTenis\\LojaTenis.Application\\LojaTenis.Application.csproj"
+            },
+            "C:\\Users\\jonat\\source\\repos\\JonatasDaviADS\\LojaTenis\\LojaTenis.Domain\\LojaTenis.Domain.csproj": {
+              "projectPath": "C:\\Users\\jonat\\source\\repos\\JonatasDaviADS\\LojaTenis\\LojaTenis.Domain\\LojaTenis.Domain.csproj"
+            },
+            "C:\\Users\\jonat\\source\\repos\\JonatasDaviADS\\LojaTenis\\LojaTenis.Infrastructure\\LojaTenis.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\jonat\\source\\repos\\JonatasDaviADS\\LojaTenis\\LojaTenis.Infrastructure\\LojaTenis.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
